@@ -2,10 +2,11 @@
 
 ## Objectives
 
-1. Describe and implement update functionality to adaquote
-2. Describe and implement delete functionality to adaquote
-3. Review Express MVC at a high level
-4. practice, practice, practice...with deep breaths in between
+1. Explain method override
+2. Describe and implement update functionality to adaquote
+3. Describe and implement delete functionality to adaquote
+4. Review Express MVC at a high level
+5. practice, practice, practice...with deep breaths in between
 
 ## Method override and submitting `PUT`s and `DELETE`s
 
