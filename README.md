@@ -58,7 +58,7 @@ app.use(methodOverride('_method'));
 ## Fixing some bugs
 
 1. See line 6 in `models/quote.js`. **Question: why did we have to do that?**
-2. See line 6 in `views/quotes/quotes-index.ejs`. **Question: what did we change? Why do you think we had to do that?
+2. See line 6 in `views/quotes/quotes-index.ejs`. **Question: what did we change? Why do you think we had to do that?**
 
 ## Lab!
 
