@@ -13,3 +13,25 @@ const methodOverride = require('method-override');
 ```javascript
 app.use(methodOverride('_method'));
 ```
+
+4. Finally, you'll have to add the method override as a parameter to the URL in the form. Compare the following `POST` and `PUT` forms:
+
+`POST`:
+```javascript
+<form method='POST' action='/quotes'>
+  <input name='content' type='text' placeholder='Quote' />
+  <input name='author' type='text' placeholder='Author' />
+  <input name='genre_id' type='text' placeholder='Genre' />
+  <input type='submit' value='Add it!' />
+</form>
+```
+
+`PUT`:
+```javascript
+<form method='POST' action='/quotes/<%= id %>?_method=PUT'>
+  <input name='content' type='text' value='<%= quote.content %>' />
+  <input name='author' type='text' value='<%= quote.author %>' />
+  <input name='genre_id' type='text' value='<%= quote.genre_id %>' />
+  <input type='submit' value='Edit it!' />
+</form>
+```
