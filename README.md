@@ -59,3 +59,13 @@ app.use(methodOverride('_method'));
 
 1. See line 6 in `models/quote.js`. **Question: why did we have to do that?**
 
+## Lab!
+
+1. Continue yesterday's lab. If you finished yesterday's portion, minus the styling, continue on to today's topics and try to add edit and delete functionality to the movies app.
+
+**BONUS**
+
+2. If you produce a fully CRUD movies app, take a shot at including a javascript file that will run in the browser. What steps would that require? Hint: you should put a `.js` file somewhere in the public folder and then link it to your website somehow...maybe in the `index.ejs`, or `boilerplate.ejs`, or `end.ejs`?
+3. Try just getting a `console.log()` in the browser. After you do that try to do some DOM manipulation and then see if you can do some fetching.
+4. We'll talk about these topics in the afternoon!
+
