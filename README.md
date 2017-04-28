@@ -11,7 +11,7 @@
 
 So far we've read all of the items in our database (`GET`) and we've added items to our database (`POST`). Now we're going to learn how to edit (`PUT`) and delete items in the database (`DELETE`).
 
-Unfortunately, `PUT` and `DELETE` is not quite supported in the web browser. We have to install and use an express middleware called 'method override' to get them to work:
+Unfortunately, `PUT` and `DELETE` are not quite supported in the web browser. We have to install and use an express middleware called 'method override' to get them to work:
 
 1. Run `npm install --save method-override`
 2. Then you have to import it:
@@ -58,6 +58,7 @@ app.use(methodOverride('_method'));
 ## Fixing some bugs
 
 1. See line 6 in `models/quote.js`. **Question: why did we have to do that?**
+2. See line 6 in `views/quotes/quotes-index.ejs`. **Question: what did we change? Why do you think we had to do that?
 
 ## Lab!
 
